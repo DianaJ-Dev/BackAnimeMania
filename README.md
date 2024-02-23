@@ -18,8 +18,26 @@ usar en diferentes proyectos.
 ### Uso
 
 Para hacer uso podrás usar el link
-https://back-anime-mania.vercel.app/anime?name={colocar Nombre del anime que quieres buscar}.
+https://back-anime-mania.vercel.app/anime?name=nombreanime
 
+
+```
+[
+    {
+        "id": id,
+        "title": "name",
+        "img": "sourceimg",
+        "score": score,
+        "another_link": "link",
+        "recommendation": "Great, this is one of the best anime"
+    },
+    {
+    ...
+    }
+
+]
+```
+Devolver 10 registros por defecto
 
 
 
